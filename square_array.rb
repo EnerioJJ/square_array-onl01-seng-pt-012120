@@ -5,4 +5,5 @@ def square_array(array)
     newsies = nums * nums
     
     new_numbers << newsies
+  end
 end
