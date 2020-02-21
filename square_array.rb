@@ -1,5 +1,11 @@
 def square_array(array)
+  tromp = []
+  
   array.each do |nums|
-    nums *= nums
+    newsies = nums * nums
+    
+    tromp << newsies
   end
+  
+  tromp
 end
